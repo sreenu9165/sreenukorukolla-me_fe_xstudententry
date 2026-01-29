@@ -97,7 +97,7 @@ function App() {
                 <tr key={index}>
                   <td>{student.name}</td>
                   <td>{student.age}</td>
-                  <td>{student.grade}</td>
+                  <td>Class {student.grade}</td>
                   <td>
                     <button
                       className="remove"
